@@ -132,15 +132,18 @@ main {
     header {
         padding: 20px;
     }
-    nav, .teams-container {
+    nav, .teams-container, .facts-card-container {
         flex-direction: column;
     }
     .teams-img-container {
         grid-template-columns: 1fr;
     }
-    .teams-content {
+    .teams-content, .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container {
+        gap: 20px;
     }
 }
 /* Tablet Or Medium Devices */
